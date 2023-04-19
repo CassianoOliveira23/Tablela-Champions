@@ -1,0 +1,119 @@
+* {   /*Abaixo estilizamos todos os elementos da pagina com (*) elemento raiz */
+
+    margin: 0;    /* Zerando todas as margens*/
+    box-sizing: border-box;  /* definindo o tamnho da caixa para nao aumentar o tamanho conforme é inserido texto(A caixa não cresce além da borda)*/
+    font-weight: normal; /* retirando o negrito */
+    font-family: Arial, Helvetica, sans-serif;  /* Alterando  o tipo de fonte */     
+}
+
+
+
+body{
+    background-color: rgb(240, 240, 240); /* Altendo a cor de fundo da página */
+}
+
+
+
+.header {   /* estilizando a primeira Div */
+height: 100px;  /* definindo a altura da div */
+background-color: #162E58; /* definindo a cor de fundo para AZUL */
+color: white; /* definindo a cor BRANCA para os textos */
+padding: 10px;  /* definindo um espaçamento */
+}
+
+
+
+.header h1{   /* Alterando o preenchimento hdo H1 para para afastar as bordas (neste caso o professor pediu um padding top e bottom)*/ 
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.header h2{    /* Centralizando o H2 da Headaer e colocando uma margem acima. */
+    font-size: 16px;  /* definindo uma fonte de 16px. */
+    text-align: center; /* Centralizando o texto */
+    font-weight: normal; /* normalizando a fonte - sem negrito */
+    margin-top: 50px;  /* definindo uma margem acima */
+}
+
+
+.grupos{
+    width: 60%; /* definindo a largura de 60% */
+    margin: 0 auto;  /* deixando a margem auto nas laterais para centralizar */
+    background-color: white; /* alterando a cor de fundo */
+    padding-bottom: 40px; /* definindo um espaçamento interdo em baixo */   
+}
+
+
+table {    /* estilizando as tabelas */
+    width: 100%;  /* definindo uma largura de 100% da página */
+    font-size: 14px; /* definindo o tamanho da fonte */
+    margin-top: 10px;
+    color: black /* Cor da fonte */
+}
+
+
+table, th, td, tr{
+    border-top: 0.2px solid #70757a; /* adcionando uma borba superior */
+    border-collapse: collapse; /* unindo as bordas */
+    padding: 5px;  /* adcionando um espaçamento de 5px */
+}
+
+
+.img-clube{  /* definindo uma classe para estilizar a imagem dos clubes */
+    width: 24px;
+    height: 24px;
+}
+
+
+tr{   /* definindo uma classe para estilizar as linhas */
+   text-align: center; 
+}
+
+
+th{  /* definindo uma classe para estilizar as colunas */
+    font-weight: normal;
+    color: #70757a; /* Alterando a cor de fonte do cabeçalho */
+}
+
+
+.grupos h3{  /* estizando o H3 - Títulos dos grupos */
+    padding-top: 20px;  /* Preenchimento acima */
+    
+}
+
+
+
+.gols{ /* classe para estilizar a div gols */
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+.gols h3{  /* estilizando o título da tabela gols */
+    background-color: #162E58;
+    color: white;
+}
+
+
+.img-jogador{  /* classe para estilizar a imagem dos jogadores */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; /* definindo bordas arredondadas */
+    float: left  /* definindo flutuação a esquerda */
+}
+
+
+.cartoes{ /* classe para estilizar a div cartões */
+    width: 60%; /* Definindo uma largura da div de 60%*/
+    background-color: white;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.cartoes h3{  /* estilizando o título da tabela cartões */
+    background-color: #162E58;
+    color: white;
+}
